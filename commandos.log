@@ -1,0 +1,23 @@
+mkdir oetsVersiebeheer
+cd oetsVersiebeheer
+git status
+git init
+git remote add origin https://github.com/sjoulbak/toetsVersiebeheer
+touch index.html
+get add index.html
+git commit -m 'index pagina toegevoegd'
+get add index.html
+git commit -m 'citaat toegevoegd'
+git branch zandbak
+git checkout zandbak
+git add index.html foto.jpg
+git commit -m 'foto toegevoegd'
+git checkout master
+git add index.html
+git commit -m 'titel van citaat van de dag toegevoegd'
+git checkout zandbak
+git rebase master
+git checkout master
+git merge zandbak
+git add commandos.log
+git commit -m 'commandos log toegevoegd'
